@@ -80,3 +80,11 @@ A REST API is built using FastAPI.
   - Returns forecast for the given state
 
 ### Example:
+GET /forecast/maharashtra
+
+Response:
+```json
+{
+  "state": "maharashtra",
+  "forecast": [1234, 1300, 1250, ...]
+}
